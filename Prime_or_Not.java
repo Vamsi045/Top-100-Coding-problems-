@@ -5,6 +5,7 @@ public class Prime_or_Not {
         Scanner input = new Scanner(System.in);
         int k = input.nextInt();
         System.out.println("The given number " + k + " is prime or not ? " + Primeornot(k));
+        input.close();
 
     }
 
