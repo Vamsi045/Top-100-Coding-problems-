@@ -5,6 +5,7 @@ public class Sum_Of_Two_Primes {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number to chcke wheather the number can be expressed in sum of two primes");
         int n = input.nextInt();
+        input.close();
         int i = 0;
         int g=0;
         for (i = 2; i <= n / 2; i++) {
